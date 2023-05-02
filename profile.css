@@ -1,16 +1,98 @@
 .profile {
+  width: 201px;
   height: 100%;
-  width: 30px;
-  min-width: 30px;
-  background: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background: #99999987;
   mix-blend-mode: normal;
-  opacity: 0.8;
-  transition: width 0.5s;
-  overflow: hidden;
 }
 
-#profile-button {
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
+.profile-user {
+  height: 100vh;
+}
+
+.navigation {
+  border: 0;
+  height: 50px;
+  background-size: cover;
+  background-color: rgb(3, 145, 98);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button-home-page,
+.button-chat,
+.button-profile {
+  width: 50px;
+  height: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  justify-content: space-evenly;
+  margin-top: 35px;
+  color: #000000;
+}
+.name-user {
+  color: #000;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.icon-dot-green {
+  padding-left: 3px;
+}
+
+.text-2 {
+  color: #000;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.text-1 {
+  /* position: absolute; */
+  color: #5f6164;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.photo-user {
+  width: 201px;
+  height: 201px;
+}
+
+.text-1 {
+  font-family: "Lato";
+  font-size: 12px;
+}
+
+.text {
+  padding-left: 20px;
+}
+
+.button-message {
+  width: 133px;
+  height: 25px;
+  background-color: #3577ef;
+  border: 0;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.button-arrow {
+  width: 25px;
+  height: 25px;
+  background-color: #3577ef;
+  border: 0;
+  border-radius: 4px;
+}
+.icon-messengers {
+  padding-top: 20px;
+  padding-bottom: 18px;
 }
